@@ -1,13 +1,16 @@
 package hoang.example;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 public class HardcodedCredentialsExample {
     public static void main(String[] args) {
-        String username = "admin";
-        String password = "123456"; // hardcoded password
+        String username  = System.getenv("APP_USERNAME");
+        String password  = System.getenv("APP_PASSWORD");
         if(authenticate(username, password)) {
-            System.out.println("Access granted");
+            log.info("Access granted");
         } else {
-            System.out.println("Access denied");
+            log.info("Access denied");
         }
     }
 
