@@ -1,0 +1,6 @@
+firstName,lastName,email,gender,mobile,dob,subject1,subject2,hobbies,picture,address,state,city,expectedResult
+John,Doe,john.doe@example.com,Male,0123456789,06 Nov 1995,Maths,Physics,"Sports|Reading",apple.png,"123 Test Street",NCR,Delhi,success
+Jane,Smith,jane.smith@example.com,Female,0987654321,15 May 2000,English,,"Music",apple.png,"456 Sample Road",Uttar Pradesh,Agra,success
+,Nguyen,nguyen.valid@example.com,Female,0912345678,01 Jan 2000,Maths,,"Sports",apple.png,"789 Missing First Name",NCR,Delhi,fail
+An,Tran,an.tran-invalid-email,Male,0911222333,15 May 1998,English,,"Music",apple.png,"12 Invalid Email St",NCR,Delhi,fail
+Binh,Le,binh.le@example.com,Other,12345,20 Aug 1999,Chemistry,,"Reading",apple.png,"34 Invalid Mobile St",NCR,Delhi,fail

@@ -1,0 +1,7 @@
+username,password,expected
+customer,customer1,success
+staff,staff,success
+wronguser,wrongpass!,error
+"",123,error
+"username","",error
+"", "",error

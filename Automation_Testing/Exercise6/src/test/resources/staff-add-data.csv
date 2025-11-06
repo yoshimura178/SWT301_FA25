@@ -1,0 +1,6 @@
+fullName,role,email,phone,password,isActive,expected
+Jane Smith,Admin,jane.smith@restaurant.com,0912345678,VeryStrong123,true,success
+John Server,Staff,john.server@restaurant.com,0987654321,StrongPass888,false,success
+,Admin,missing.name@restaurant.com,0900000000,Passw0rd,true,fail
+Mary Invalid Email,Staff,mary.invalid-email,0900000001,Passw0rd,true,fail
+Short Pass,Admin,short.pass@restaurant.com,0900000002,123,true,fail
